@@ -213,7 +213,11 @@ jQuery.fn.countdown = function(userOptions) {
     timerEnd: function(){},
     image: "digits.png",
     continuous: false,
-	start: true
+    start: true,
+    daysElement: '#days',
+    hoursElement: '#hours',
+    minutesElement: '#minutes',
+    secondsElement: '#seconds'
   };
   $.extend(options, userOptions);
 
